@@ -1,5 +1,5 @@
 /* KnHCommunity · GitHub Pages + Supabase */
-const SUPABASE_URL = 'https://hpefxrhnhaqbkqlbqsay.supabase.co';
+const SUPABASE_URL = 'https://luckykjh777.github.io/KnHCommunity/';
 const SUPABASE_ANON_KEY = 'sb_publishable_gABP6oIzArS7Wc6OzNkQxw_KZkgixcT';
 const sbReady = () => window.supabase && SUPABASE_URL.startsWith('https://') && !SUPABASE_URL.includes('YOUR_PROJECT') && !SUPABASE_ANON_KEY.includes('YOUR_SUPABASE');
 let db = null, session = null, profile = null, currentPage = 'home', currentDoc = null, currentChannel = 'general', replyTo = null, editing = null, realtime = null;
